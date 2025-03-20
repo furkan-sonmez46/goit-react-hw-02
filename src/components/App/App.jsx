@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react';
 import './App.css';
 import Description from '../Description/Description.jsx';
-import '../Description/Description.css';
+import '../Description/Description.module.css';
 import Options from '../Options/Options.jsx';
-import '../Options/Options.css';
+import '../Options/Options.module.css';
 import Feedback from '../Feedback/Feedback.jsx';
-import '../Feedback/Feedback.css';
+import '../Feedback/Feedback.module.css';
 
 const App = () => {
   const [feedback, setFeedback] = useState(() => {
