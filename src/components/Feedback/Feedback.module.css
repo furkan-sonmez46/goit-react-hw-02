@@ -1,0 +1,20 @@
+.default {
+  background-color: inherit;
+}
+
+.positive {
+  background-color: green;
+}
+
+.neutralPositive {
+  background-color: yellow;
+  color: #242424;
+}
+
+.neutralPositiveText {
+  color: #242424; /* Only apply black text when it's neutralPositive */
+}
+
+.negative {
+  background-color: red;
+}
